@@ -1,0 +1,75 @@
+.registration{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* justify-content:center ; */
+    align-items: center;
+    height:fit-content;
+    margin-left: 290px;
+    margin-right: 360px;
+    margin-top: 250px;
+  }
+  
+  .heading{
+    border-radius: 9px;
+    background-color: aliceblue;
+  }
+  .heading p{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+  .inner{
+    justify-content: center;
+    margin: 20px;
+    height: max-content;
+  }
+  .inner .error{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 250px;
+    height: 20px;
+  
+  }
+  .inner .error p{
+      color: red;
+  }
+
+  .outerfeild{
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .outerfeild label{
+    width: 80px;
+  }
+  
+  .outerfeild .feild{
+    margin-left: 10px;
+  }
+
+  .inner .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 18px; 
+  }
+
+  .show{
+    margin-left: 4px;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 60px;
+  }
+
+  .btn{
+    margin-right: 3px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    width: 80px;
+  }
